@@ -53,5 +53,5 @@ jobs:
           personal_token: ${{ secrets.personal_token }} # personal_token 这里新建一个 https://github.com/settings/tokens
           PUBLISH_BRANCH: gh-pages  # 推送到当前 gh-pages 分支
           PUBLISH_DIR: ./docs/.vuepress/dist
-          # cname: blog-github.zhangeek.com
+          cname: interview-github.zhangeek.com
           commit_message: ${{ github.event.head_commit.message }}
